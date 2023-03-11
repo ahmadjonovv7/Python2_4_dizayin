@@ -111,14 +111,6 @@ async def bot_echo(message: types.Message):
     await bot.send_video(chat_id=user_id,video=video_manzili,caption="🎥Nomi: Bravo 2019                                                                                   ⏰ Davomiyligi: 1 soat 47 daqiqa                                                               🇺🇿Tili:O'zbek tilida                                                                                        🎭Janri: Komediya")
 
 
-@dp.message_handler(text="bravo 2021")
-async def bot_echo(message: types.Message):
-
-    video_manzili = 'https://t.me/million_dizayn_milyon_konsert21/8'
-    user_id = message.from_user.id
-    await bot.send_video(chat_id=user_id,video=video_manzili,caption="🎥Nomi: Bravo 2021                                                                                   ⏰ Davomiyligi: 1 soat 54 daqiqa                                                               🇺🇿Tili:O'zbek tilida                                                                                        🎭Janri: Komediya")
-
-
 @dp.message_handler(text="Bravo 2018")
 async def bot_echo(message: types.Message):
 
@@ -224,3 +216,11 @@ async def bot_echo(message: types.Message):
     video_manzili = 'https://t.me/MILLION_JAMOASI_KONSER/307'
     user_id = message.from_user.id
     await bot.send_video(chat_id=user_id,video=video_manzili,caption="🎥Nomi: Million 2022 Kuz 4K                                                                                   ⏰ Davomiyligi: 2 soat 19 daqiqa                                                               🇺🇿Tili:O'zbek tilida                                                                                        🎭Janri: Komediya")
+
+
+@dp.message_handler(text="Bravo 2021")
+async def bot_echo(message: types.Message):
+
+    video_manzili = 'https://t.me/Bravo_dizayn_millon/148'
+    user_id = message.from_user.id
+    await bot.send_video(chat_id=user_id,video=video_manzili,caption="🎥Nomi: Bravo 2021                                                                                   ⏰ Davomiyligi: 1 soat 54 daqiqa                                                               🇺🇿Tili:O'zbek tilida                                                                                        🎭Janri: Komediya")
