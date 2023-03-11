@@ -3,7 +3,7 @@ from aiogram.types import ReplyKeyboardMarkup,KeyboardButton
 bravo_buttons = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text="Bravo 2021"),
+            KeyboardButton(text="bravo 2021"),
             KeyboardButton(text="Bravo 2019")
         ],
         [

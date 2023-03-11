@@ -111,7 +111,7 @@ async def bot_echo(message: types.Message):
     await bot.send_video(chat_id=user_id,video=video_manzili,caption="🎥Nomi: Bravo 2019                                                                                   ⏰ Davomiyligi: 1 soat 47 daqiqa                                                               🇺🇿Tili:O'zbek tilida                                                                                        🎭Janri: Komediya")
 
 
-@dp.message_handler(text="Bravo 2021")
+@dp.message_handler(text="bravo 2021")
 async def bot_echo(message: types.Message):
 
     video_manzili = 'https://t.me/million_dizayn_milyon_konsert21/8'
