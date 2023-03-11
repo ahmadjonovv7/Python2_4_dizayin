@@ -216,3 +216,11 @@ async def bot_echo(message: types.Message):
     video_manzili = 'https://www.youtube.com/watch?v=Ce_KNp70zlI'
     user_id = message.from_user.id
     await bot.send_video(chat_id=user_id,video=video_manzili,caption="🎥Nomi: Dizayn 2016                                                                                   ⏰ Davomiyligi: 2 soat 17 daqiqa                                                               🇺🇿Tili:O'zbek tilida                                                                                        🎭Janri: Komediya")
+
+
+@dp.message_handler(text="Million Kuz 4K")
+async def bot_echo(message: types.Message):
+
+    video_manzili = 'https://t.me/MILLION_JAMOASI_KONSER/307'
+    user_id = message.from_user.id
+    await bot.send_video(chat_id=user_id,video=video_manzili,caption="🎥Nomi: Million 2022 Kuz 4K                                                                                   ⏰ Davomiyligi: 2 soat 19 daqiqa                                                               🇺🇿Tili:O'zbek tilida                                                                                        🎭Janri: Komediya")

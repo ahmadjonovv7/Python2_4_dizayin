@@ -4,7 +4,7 @@ menu_buttons = ReplyKeyboardMarkup(
     keyboard=[
         [
             KeyboardButton(text="Million konserti"),
-            KeyboardButton(text="Dizayi konserti")
+            KeyboardButton(text="Dizayin konserti")
         ],
         [
             KeyboardButton(text="Bravo konserti")

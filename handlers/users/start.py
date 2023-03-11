@@ -23,7 +23,7 @@ async def bot_start(message: types.Message):
     await message.answer(f"Tanlang👇",reply_markup=bravo_buttons)
 
 
-@dp.message_handler(text='Dizayi konserti')
+@dp.message_handler(text='Dizayin konserti')
 async def bot_start(message: types.Message):
     await message.answer(f"Tanlang👇",reply_markup=dizayin_buttons)
 

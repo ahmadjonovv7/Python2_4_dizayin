@@ -3,6 +3,9 @@ from aiogram.types import ReplyKeyboardMarkup,KeyboardButton
 million_buttons = ReplyKeyboardMarkup(
     keyboard=[
         [
+            KeyboardButton(text="Million Kuz 4K")
+        ],
+        [
             KeyboardButton(text="Million 2022"),
             KeyboardButton(text="Million 2021")
         ],
